@@ -8,6 +8,14 @@ class Mahasiswa { //membuat class mahasiswa
         string nama;
         int umur;
         string jurusan;
+
+        //membuat prosedur output sebagai member dari class mahasiswa
+        void output() {
+            cout << "Nama \t: " << nama << endl;
+            cout << "Umur \t: " << umur << endl;
+            cout << "Jurusan \t: " << jurusan << endl;
+        }
+
 };
 
 
