@@ -21,6 +21,10 @@ class Mahasiswa { //membuat class mahasiswa
 class Matakuliah { //membuat class Matakuliah
 
     private: //akses modifier private
+        //membuat member dari class matakuliah
+        string kodeMk;
+        string namaMk;
+        int sks;
 
 };
 
