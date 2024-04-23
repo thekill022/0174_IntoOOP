@@ -19,6 +19,11 @@ class bangunDatar { //membuat class bangunDatar
             cin >> lebar;
         }
 
+        //membuat method untuk menghitung luas persegi
+        float hitungLuas() {
+            return panjang * lebar;
+        }
+
 };
 
 int main()
