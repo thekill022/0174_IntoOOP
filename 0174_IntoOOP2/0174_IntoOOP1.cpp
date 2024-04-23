@@ -50,4 +50,5 @@ class Matakuliah { //membuat class Matakuliah
 int main()
 {
     Mahasiswa mhs; //deklarasi objek mhs dari class mahasiswa
+    Matakuliah mk; //deklarasi objek mk dari class matakuliah
 }
