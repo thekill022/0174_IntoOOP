@@ -18,6 +18,10 @@ class Mahasiswa { //membuat class mahasiswa
 
 };
 
+class Matakuliah { //membuat class Matakuliah
+
+};
+
 
 int main()
 {
