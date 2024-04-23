@@ -58,4 +58,9 @@ int main()
     mhs.jurusan = "Teknik Informatika";
     mhs.output();
 
+    //memberikan dan menampilkan nilai dari class matakuliah
+    mk.input();
+    mk.output();
+
+    return 0;
 }
