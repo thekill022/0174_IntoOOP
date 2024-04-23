@@ -36,5 +36,11 @@ class bangunDatar { //membuat class bangunDatar
 int main()
 {
     bangunDatar pp; //deklarasi objek pp dari class bangunDatar
+
+    //memanggil prosedur input dan output dari class bangunDatar
+    pp.input();
+    pp.display();
+
+    return 0;
 }
     
