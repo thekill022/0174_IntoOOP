@@ -51,4 +51,11 @@ int main()
 {
     Mahasiswa mhs; //deklarasi objek mhs dari class mahasiswa
     Matakuliah mk; //deklarasi objek mk dari class matakuliah
+
+    //memberikan nilai kepada member dari class mahasiswa
+    mhs.nama = "Budi";
+    mhs.umur = 20;
+    mhs.jurusan = "Teknik Informatika";
+    mhs.output();
+
 }
