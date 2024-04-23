@@ -24,6 +24,13 @@ class bangunDatar { //membuat class bangunDatar
             return panjang * lebar;
         }
 
+        //membuat prosedur input sebagai member dari class bangunDatar
+        void display() {
+            cout << "Panjangnya = " << panjang << endl;
+            cout << "Lebarnya = " << lebar << endl;
+            cout << "Luasnya = " << hitungLuas() << endl;
+        }
+
 };
 
 int main()
