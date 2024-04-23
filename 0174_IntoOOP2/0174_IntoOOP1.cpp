@@ -27,6 +27,15 @@ class Matakuliah { //membuat class Matakuliah
         int sks;
 
     public: //akses modifier public
+        //membuat prosedur input sebagai member dari class matakuliah
+        void input() {
+            cout << "Kode MK : ";
+            cin >> kodeMk;
+            cout << "Nama MK : ";
+            cin >> namaMk;
+            cout << "SKS : ";
+            cin >> sks;
+        }
 
 };
 
