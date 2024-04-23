@@ -49,5 +49,5 @@ class Matakuliah { //membuat class Matakuliah
 
 int main()
 {
-    
+    Mahasiswa mhs; //deklarasi objek mhs dari class mahasiswa
 }
