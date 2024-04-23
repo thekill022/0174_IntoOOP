@@ -37,6 +37,13 @@ class Matakuliah { //membuat class Matakuliah
             cin >> sks;
         }
 
+        //membuat prosedur output sebagai member dari class matakuliah
+        void output() {
+            cout << "Kode MK \t: " << kodeMk << endl;
+            cout << "Nama MK \t: " << namaMk << endl;
+            cout << "SKS \t: " << sks << endl;
+        }
+
 };
 
 
