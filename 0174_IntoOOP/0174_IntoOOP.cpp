@@ -10,6 +10,15 @@ class bangunDatar { //membuat class bangunDatar
     public : //akses modifier public
         //membuat member public dari class bangunDatar
         float luas;
+
+        //membuat prosedur input sebagai member dari class bangunDatar
+        void input() {
+            cout << "Masukkan Panjangnya = ";
+            cin >> panjang;
+            cout << "Masukkan Lebarnya = ";
+            cin >> lebar;
+        }
+
 };
 
 int main()
