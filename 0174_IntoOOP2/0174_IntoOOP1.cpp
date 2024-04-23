@@ -26,6 +26,8 @@ class Matakuliah { //membuat class Matakuliah
         string namaMk;
         int sks;
 
+    public: //akses modifier public
+
 };
 
 
