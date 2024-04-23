@@ -8,6 +8,8 @@ class bangunDatar { //membuat class bangunDatar
         float panjang, lebar;
 
     public : //akses modifier public
+        //membuat member public dari class bangunDatar
+        float luas;
 };
 
 int main()
